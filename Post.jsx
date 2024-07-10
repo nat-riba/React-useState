@@ -4,7 +4,7 @@ const Post = ({ titulo, descricao }) => {
   const [curtido, setCurtido] = useState(false);
 
   const handleCurtirClick = () => {
-    setCurtido(!curtido); // Alternar entre true e false
+    setCurtido(!curtido); 
   };
 
   return (
