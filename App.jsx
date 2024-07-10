@@ -4,7 +4,7 @@
 // Declarativa
 // Açucar sintático
 
-import Post from "./components/Post";
+//import Post from "./components/Post";
 
 // import Rodape from "./components/Rodape";
 // import Blog from "./components/Blog";
@@ -15,16 +15,15 @@ import Post from "./components/Post";
 // import Listagem from "./components/Listagem";
 //import CalculadoraIMC from "./components/CalculadoraIMC";
 //import Carrossel from "./components/Carrossel";
+import ConversorTemperatura from "./ConversorTemperatura";
 
 // Componente principal da aplicação
 function App() {
   return (
     <>
-     <section className="App">
-      <Post titulo="Meu Primeiro Código" descricao="Primeiro código." />
-      <Post titulo="Soul Code é o máximo" descricao="Prof Almir é ótimo." />
+         <section className="App">
+      <ConversorTemperatura />
     </section>
-      <Post />
     </>
   );
 }
